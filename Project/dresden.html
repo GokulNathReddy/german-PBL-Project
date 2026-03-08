@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dresden &middot; German Cities: Past and Present</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="city-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-main">German Cities</span>
+        <span class="logo-sub">Past &amp; Present</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="berlin.html">Berlin</a></li>
+          <li><a href="munich.html">Munich</a></li>
+          <li><a href="hamburg.html">Hamburg</a></li>
+          <li><a href="cologne.html">Cologne</a></li>
+          <li><a href="frankfurt.html">Frankfurt</a></li>
+          <li><a href="dresden.html" class="active">Dresden</a></li>
+          <li><a href="leipzig.html">Leipzig</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="city-hero">
+      <div class="container">
+        <p class="city-label">City</p>
+        <h1>Dresden</h1>
+        <p class="city-tagline">
+          Baroque palaces on the Elbe that were almost destroyed in 1945 and carefully reconstructed after reunification.
+        </p>
+      </div>
+    </section>
+
+    <section class="comparison-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Dresden: Past and Present</h2>
+          <p>Observe how destruction, empty spaces, and reconstructed landmarks changed the cityscape.</p>
+        </header>
+
+        <div class="comparison-examples">
+          <article class="comparison-example">
+            <h3>Frauenkirche &ndash; From Ruin to Landmark</h3>
+            <p>See the ruined church after the war and the rebuilt Frauenkirche used for concerts and worship today.</p>
+            <div class="image-comparison" data-city="dresden">
+              <div class="image-comparison__label image-comparison__label--left">Past</div>
+              <div class="image-comparison__label image-comparison__label--right">Present</div>
+
+              <div class="image-comparison__image-wrapper">
+                <img
+                  src="assets/images/dresden-1-past.jpg"
+                  alt="Ruins of the Frauenkirche in Dresden"
+                  class="image-comparison__image"
+                />
+                <div class="image-comparison__overlay">
+                  <img
+                    src="assets/images/dresden-1-present.jpg"
+                    alt="Rebuilt Frauenkirche in Dresden"
+                    class="image-comparison__image"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="image-comparison__slider"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare Frauenkirche ruins and rebuilt church in Dresden"
+              />
+            </div>
+          </article>
+
+          <article class="comparison-example">
+            <h3>Brühl&rsquo;s Terrace and Elbe River</h3>
+            <p>Contrast historical river views with today&rsquo;s promenade and restored facades.</p>
+            <div class="image-comparison" data-city="dresden">
+              <div class="image-comparison__label image-comparison__label--left">Past</div>
+              <div class="image-comparison__label image-comparison__label--right">Present</div>
+
+              <div class="image-comparison__image-wrapper">
+                <img
+                  src="assets/images/dresden-2-past.jpg"
+                  alt="Historic Brühl's Terrace by the Elbe in Dresden"
+                  class="image-comparison__image"
+                />
+                <div class="image-comparison__overlay">
+                  <img
+                    src="assets/images/dresden-2-present.jpg"
+                    alt="Modern Brühl's Terrace and Elbe in Dresden"
+                    class="image-comparison__image"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="image-comparison__slider"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare historical and modern Brühl's Terrace in Dresden"
+              />
+            </div>
+          </article>
+
+          <article class="comparison-example">
+            <h3>Zwinger Palace</h3>
+            <p>Compare damaged baroque architecture with today&rsquo;s restored museum complex.</p>
+            <div class="image-comparison" data-city="dresden">
+              <div class="image-comparison__label image-comparison__label--left">Past</div>
+              <div class="image-comparison__label image-comparison__label--right">Present</div>
+
+              <div class="image-comparison__image-wrapper">
+                <img
+                  src="assets/images/dresden-3-past.jpg"
+                  alt="Damaged Zwinger Palace in Dresden"
+                  class="image-comparison__image"
+                />
+                <div class="image-comparison__overlay">
+                  <img
+                    src="assets/images/dresden-3-present.jpg"
+                    alt="Restored Zwinger Palace in Dresden"
+                    class="image-comparison__image"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="image-comparison__slider"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare damaged and restored Zwinger Palace in Dresden"
+              />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="container content-grid-inner">
+        <section class="content-card">
+          <h2>Short History</h2>
+          <p>
+            Dresden became the residence of the Saxon electors and kings and was famous for its baroque architecture
+            and art collections. During the Second World War, severe bombing destroyed much of the historic center.
+            In the GDR era, some ruins remained as memorials; after reunification, major projects such as the
+            rebuilding of the Frauenkirche began. Today Dresden again presents itself as a cultural capital on the Elbe.
+          </p>
+        </section>
+
+        <section class="content-card">
+          <h2>Culture &amp; Lifestyle</h2>
+          <p>
+            Dresden offers classical concerts, opera, and galleries, but also modern street culture along the Neustadt
+            district. The Elbe meadows serve as a green relaxation area, and festivals bring together local traditions
+            and visitors. The mixture of old and new buildings invites discussion about memory, identity, and urban
+            development in Germany.
+          </p>
+        </section>
+
+        <section class="content-card">
+          <h2>Food Specialities</h2>
+          <div class="food-grid">
+            <article class="food-item">
+              <img src="assets/images/dresden-stollen.jpg" alt="Slices of Dresdner Stollen with powdered sugar" />
+              <h3>Dresdner Stollen</h3>
+              <p>
+                A rich Christmas fruit bread with raisins and powdered sugar, protected as a regional specialty.
+              </p>
+            </article>
+            <article class="food-item">
+              <img src="assets/images/dresden-eierschecke.jpg" alt="Piece of Eierschecke cake" />
+              <h3>Eierschecke</h3>
+              <p>
+                A layered cake from Saxony, with yeast dough, quark, and a custard-like topping.
+              </p>
+            </article>
+            <article class="food-item">
+              <img src="assets/images/dresden-saxon-sausage.jpg" alt="Saxon sausage with sauerkraut" />
+              <h3>Saxon Sausages</h3>
+              <p>
+                Various regional sausages served with sauerkraut and potatoes, reflecting hearty Saxon cuisine.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-card">
+          <h2>Interesting Facts</h2>
+          <ul class="fact-list">
+            <li>Dresden is sometimes called the “Florence on the Elbe” because of its art and architecture.</li>
+            <li>The Frauenkirche reconstruction used original stones that had been catalogued and stored.</li>
+            <li>The city hosts the Striezelmarkt, one of Germany&rsquo;s oldest Christmas markets.</li>
+            <li>Dresden lies close to the Elbe Sandstone Mountains, a popular hiking region.</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Dresden &middot; German Cities: Past and Present.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+

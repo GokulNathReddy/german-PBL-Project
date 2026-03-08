@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frankfurt am Main &middot; German Cities: Past and Present</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="city-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-main">German Cities</span>
+        <span class="logo-sub">Past &amp; Present</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="berlin.html">Berlin</a></li>
+          <li><a href="munich.html">Munich</a></li>
+          <li><a href="hamburg.html">Hamburg</a></li>
+          <li><a href="cologne.html">Cologne</a></li>
+          <li><a href="frankfurt.html" class="active">Frankfurt</a></li>
+          <li><a href="dresden.html">Dresden</a></li>
+          <li><a href="leipzig.html">Leipzig</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="city-hero">
+      <div class="container">
+        <p class="city-label">City</p>
+        <h1>Frankfurt am Main</h1>
+        <p class="city-tagline">
+          A financial powerhouse on the Main River where medieval trade routes meet glass towers and a busy airport.
+        </p>
+      </div>
+    </section>
+
+    <section class="comparison-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Frankfurt: Past and Present</h2>
+          <p>Compare historic river views and market squares with today&rsquo;s skyline and business district.</p>
+        </header>
+
+        <div class="comparison-examples">
+          <article class="comparison-example">
+            <h3>Römerberg &ndash; Historic Market Square</h3>
+            <p>See how half-timbered houses were destroyed, then reconstructed after the war.</p>
+            <div class="image-comparison" data-city="frankfurt">
+              <div class="image-comparison__label image-comparison__label--left">Past</div>
+              <div class="image-comparison__label image-comparison__label--right">Present</div>
+
+              <div class="image-comparison__image-wrapper">
+                <img
+                  src="assets/images/frankfurt-1-past.jpg"
+                  alt="Historic view of Römerberg square in Frankfurt"
+                  class="image-comparison__image"
+                />
+                <div class="image-comparison__overlay">
+                  <img
+                    src="assets/images/frankfurt-1-present.jpg"
+                    alt="Modern reconstructed Römerberg square in Frankfurt"
+                    class="image-comparison__image"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="image-comparison__slider"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare historical and modern Römerberg in Frankfurt"
+              />
+            </div>
+          </article>
+
+          <article class="comparison-example">
+            <h3>Main River and Skyline</h3>
+            <p>Contrast low-rise riverside warehouses with today&rsquo;s high-rise bank towers.</p>
+            <div class="image-comparison" data-city="frankfurt">
+              <div class="image-comparison__label image-comparison__label--left">Past</div>
+              <div class="image-comparison__label image-comparison__label--right">Present</div>
+
+              <div class="image-comparison__image-wrapper">
+                <img
+                  src="assets/images/frankfurt-2-past.jpg"
+                  alt="Historic Main riverfront in Frankfurt"
+                  class="image-comparison__image"
+                />
+                <div class="image-comparison__overlay">
+                  <img
+                    src="assets/images/frankfurt-2-present.jpg"
+                    alt="Modern Frankfurt skyline along the Main river"
+                    class="image-comparison__image"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="image-comparison__slider"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare historical and modern Frankfurt skyline"
+              />
+            </div>
+          </article>
+
+          <article class="comparison-example">
+            <h3>Banking District</h3>
+            <p>From traditional office buildings to the modern European financial center.</p>
+            <div class="image-comparison" data-city="frankfurt">
+              <div class="image-comparison__label image-comparison__label--left">Past</div>
+              <div class="image-comparison__label image-comparison__label--right">Present</div>
+
+              <div class="image-comparison__image-wrapper">
+                <img
+                  src="assets/images/frankfurt-3-past.jpg"
+                  alt="Older office buildings in Frankfurt's banking area"
+                  class="image-comparison__image"
+                />
+                <div class="image-comparison__overlay">
+                  <img
+                    src="assets/images/frankfurt-3-present.jpg"
+                    alt="Modern skyscrapers in Frankfurt's banking district"
+                    class="image-comparison__image"
+                  />
+                </div>
+              </div>
+
+              <input
+                type="range"
+                class="image-comparison__slider"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Compare past and present Frankfurt banking district"
+              />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="container content-grid-inner">
+        <section class="content-card">
+          <h2>Short History</h2>
+          <p>
+            Frankfurt grew as a medieval trade and fair city and later became a center for banking and stock exchange.
+            The city was heavily bombed in the Second World War, which led to large-scale modern reconstruction.
+            After 1945, Frankfurt became an important financial hub in West Germany and, after reunification, for all
+            of Europe. Today it hosts the European Central Bank and major trade fairs.
+          </p>
+        </section>
+
+        <section class="content-card">
+          <h2>Culture &amp; Lifestyle</h2>
+          <p>
+            Despite its skyscrapers, Frankfurt also has cozy neighborhoods with traditional timber houses and apple
+            wine taverns. The Museumsufer along the Main gathers many museums, and the city hosts international book
+            and film festivals. The busy airport and train station make Frankfurt a gateway to Germany, bringing many
+            languages and cultures together.
+          </p>
+        </section>
+
+        <section class="content-card">
+          <h2>Food Specialities</h2>
+          <div class="food-grid">
+            <article class="food-item">
+              <img src="assets/images/frankfurt-gruene-sosse.jpg" alt="Plate of Grüne Soße with potatoes and eggs" />
+              <h3>Grüne Soße</h3>
+              <p>
+                A cold “green sauce” made from seven herbs, usually served with potatoes and boiled eggs—a classic
+                Frankfurt dish.
+              </p>
+            </article>
+            <article class="food-item">
+              <img src="assets/images/frankfurt-apfelwein.jpg" alt="Glass of apple wine in ribbed glass" />
+              <h3>Apfelwein</h3>
+              <p>
+                Local apple wine (Ebbelwoi) served in traditional taverns, often in a patterned glass called a
+                <em>Geripptes</em>.
+              </p>
+            </article>
+            <article class="food-item">
+              <img src="assets/images/frankfurt-fleischwurst.jpg" alt="Sliced Frankfurter sausage on a plate" />
+              <h3>Frankfurter Würstchen</h3>
+              <p>
+                Thin smoked sausages eaten with bread, mustard, or potato salad, known worldwide simply as
+                “Frankfurters”.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-card">
+          <h2>Interesting Facts</h2>
+          <ul class="fact-list">
+            <li>Frankfurt is sometimes called “Mainhattan” because of its skyscrapers along the Main River.</li>
+            <li>The Frankfurt Book Fair is one of the world&rsquo;s most important publishing events.</li>
+            <li>Germany&rsquo;s poet Johann Wolfgang von Goethe was born in Frankfurt.</li>
+            <li>The city&rsquo;s airport is one of Europe&rsquo;s busiest, connecting many international routes.</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Frankfurt am Main &middot; German Cities: Past and Present.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
